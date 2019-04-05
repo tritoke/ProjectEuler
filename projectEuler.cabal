@@ -1,0 +1,309 @@
+-- This file has been generated from package.yaml by hpack version 0.28.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: e1906016a715c7c9e4239039f6bf8b2ebd5a812deb3c035660479b146c410b88
+
+name:           projectEuler
+version:        0.1.0.0
+build-type:     Simple
+cabal-version:  >= 1.10
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      src
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p1
+  main-is: p1.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p10
+  main-is: p10.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p11
+  main-is: p11.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p118
+  main-is: p118.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p12
+  main-is: p12.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p13
+  main-is: p13.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p14
+  main-is: p14.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p15
+  main-is: p15.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p16
+  main-is: p16.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p2
+  main-is: p2.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p20
+  main-is: p20.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p21
+  main-is: p21.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p22
+  main-is: p22.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p282
+  main-is: p282.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p3
+  main-is: p3.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p357
+  main-is: p357.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p4
+  main-is: p4.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p5
+  main-is: p5.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p6
+  main-is: p6.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p7
+  main-is: p7.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p8
+  main-is: p8.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010
+
+executable p9
+  main-is: p9.hs
+  other-modules:
+      Paths_projectEuler
+  hs-source-dirs:
+      problems
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  build-depends:
+      base
+    , containers
+    , split
+  default-language: Haskell2010

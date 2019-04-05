@@ -1,0 +1,209 @@
+name:                projectEuler
+version:             0.1.0.0
+
+dependencies:
+  - base
+  - containers
+  - split
+
+library:
+  source-dirs: src
+
+executables:
+  p1:
+    main:                p1.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+      
+  p2:
+    main:                p2.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p3:
+    main:                p3.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+  
+  p4:
+    main:                p4.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p5:
+    main:                p5.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+ 
+  p6:
+    main:                p6.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+ 
+  p7:
+    main:                p7.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+ 
+  p8:
+    main:                p8.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p9:
+    main:                p9.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p10:
+    main:                p10.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p11:
+    main:                p11.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p12:
+    main:                p12.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p13:
+    main:                p13.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p14:
+    main:                p14.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p15:
+    main:                p15.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p16:
+    main:                p16.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p118:
+    main:                p118.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p20:
+    main:                p20.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p21:
+    main:                p21.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p22:
+    main:                p22.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p282:
+    main:                p282.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+
+  p357:
+    main:                p357.hs
+    source-dirs:         problems
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
