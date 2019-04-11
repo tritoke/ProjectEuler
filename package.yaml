@@ -7,7 +7,7 @@ dependencies:
   - split
 
 library:
-  source-dirs: src
+  source-dirs: problems
 
 executables:
   p1:
@@ -17,7 +17,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
       
   p2:
     main:                p2.hs
@@ -26,7 +25,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p3:
     main:                p3.hs
@@ -35,7 +33,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
   
   p4:
     main:                p4.hs
@@ -44,7 +41,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p5:
     main:                p5.hs
@@ -53,7 +49,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
  
   p6:
     main:                p6.hs
@@ -62,7 +57,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
  
   p7:
     main:                p7.hs
@@ -71,7 +65,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
  
   p8:
     main:                p8.hs
@@ -80,7 +73,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p9:
     main:                p9.hs
@@ -89,7 +81,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p10:
     main:                p10.hs
@@ -98,7 +89,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p11:
     main:                p11.hs
@@ -107,7 +97,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p12:
     main:                p12.hs
@@ -116,7 +105,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p13:
     main:                p13.hs
@@ -125,7 +113,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p14:
     main:                p14.hs
@@ -134,7 +121,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p15:
     main:                p15.hs
@@ -143,7 +129,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p16:
     main:                p16.hs
@@ -152,7 +137,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p118:
     main:                p118.hs
@@ -161,7 +145,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p20:
     main:                p20.hs
@@ -170,7 +153,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p21:
     main:                p21.hs
@@ -179,7 +161,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p22:
     main:                p22.hs
@@ -188,7 +169,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p282:
     main:                p282.hs
@@ -197,7 +177,6 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic
 
   p357:
     main:                p357.hs
@@ -206,4 +185,3 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -dynamic

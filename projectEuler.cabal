@@ -1,21 +1,22 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e1906016a715c7c9e4239039f6bf8b2ebd5a812deb3c035660479b146c410b88
+-- hash: 5dff261f00c6b34a3d0e5ff5671263462bd90927dfb18d55d545d67dfa8af872
 
 name:           projectEuler
 version:        0.1.0.0
+license:        MIT
+license-file:   LICENSE
 build-type:     Simple
-cabal-version:  >= 1.10
 
 library
-  exposed-modules:
-      Lib
   other-modules:
       Paths_projectEuler
   hs-source-dirs:
-      src
+      problems
   build-depends:
       base
     , containers
@@ -28,7 +29,7 @@ executable p1
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -41,7 +42,7 @@ executable p10
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -54,7 +55,7 @@ executable p11
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -67,7 +68,7 @@ executable p118
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -80,7 +81,7 @@ executable p12
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -93,7 +94,7 @@ executable p13
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -106,7 +107,7 @@ executable p14
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -119,7 +120,7 @@ executable p15
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -132,7 +133,7 @@ executable p16
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -145,7 +146,7 @@ executable p2
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -158,7 +159,7 @@ executable p20
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -171,7 +172,7 @@ executable p21
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -184,7 +185,7 @@ executable p22
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -197,7 +198,7 @@ executable p282
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -210,7 +211,7 @@ executable p3
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -223,7 +224,7 @@ executable p357
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -236,7 +237,7 @@ executable p4
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -249,7 +250,7 @@ executable p5
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -262,7 +263,7 @@ executable p6
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -275,7 +276,7 @@ executable p7
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -288,7 +289,7 @@ executable p8
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
@@ -301,7 +302,7 @@ executable p9
       Paths_projectEuler
   hs-source-dirs:
       problems
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base
     , containers
